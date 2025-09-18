@@ -3,96 +3,78 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <title>Anuradha Ramkrishnan — HR Portfolio</title>
+  <title>Anuradha Ramkrishnan — QA/QC Portfolio</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&family=Playfair+Display:wght@600&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&family=Playfair+Display:wght@600&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+  <!-- HEADER -->
   <header class="site-header">
-    <div class="container header-grid">
-      <div class="brand">
-        <h1>Anuradha <span class="accent">Ramkrishnan</span></h1>
-        <p class="role">Human Resource Manager • HR Consultant • Learning Designer</p>
-      </div>
-      <nav class="contact">
-        <a href="mailto:anu.syd.nair@gmail.com">anu.syd.nair@gmail.com</a>
-        <a href="tel:+918828094539">+91 88280 94539</a>
+    <div class="container header-flex">
+      <h1 class="logo">🎬 Anuradha <span>Ramkrishnan</span></h1>
+      <nav>
+        <a href="#work">Portfolio</a>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
       </nav>
     </div>
   </header>
 
-  <main class="container">
-    <section class="hero">
-      <div class="hero-left">
-        <h2>People-first HR. Systems that scale.</h2>
-        <p>I design HR processes, build training programs, and lead recruitment for growth-stage teams. 12+ years in HR across startups, media, education and healthcare — building HR departments, training frameworks and inclusive people practices.</p>
-        <p class="cta-row">
-          <a class="btn" href="#contact">Hire / Consult</a>
-          <a class="btn ghost" href="#work">View experience</a>
-        </p>
+  <!-- HERO -->
+  <section class="hero container">
+    <div class="hero-text">
+      <h2>Movie & Series QA/QC Specialist</h2>
+      <p>Ensuring flawless subtitles, sync accuracy, and cultural precision across multiple languages. 12+ years of HR & Media QA experience. Skilled at delivering error-free entertainment experiences for global audiences.</p>
+      <a class="btn" href="#work">View My Work</a>
+    </div>
+  </section>
+
+  <!-- WORK -->
+  <section id="work" class="container">
+    <h3 class="section-title">Selected Movies & Series</h3>
+    <div class="grid">
+      <div class="card">
+        <h4>14 Phere</h4>
+        <p>Movie • QA/QC Review</p>
       </div>
-      <div class="hero-right">
-        <dl class="mini-stats">
-          <div>
-            <dt>12+</dt>
-            <dd>Years experience</dd>
-          </div>
-          <div>
-            <dt>100+</dt>
-            <dd>Hires trained</dd>
-          </div>
-          <div>
-            <dt>7</dt>
-            <dd>Languages QA'ed</dd>
-          </div>
-        </dl>
+      <div class="card">
+        <h4>200 Halla Ho</h4>
+        <p>Movie • Subtitle QC</p>
       </div>
-    </section>
+      <div class="card">
+        <h4>Abhay - S1</h4>
+        <p>Series • Episode QC</p>
+      </div>
+      <div class="card">
+        <h4>Abhay - S3</h4>
+        <p>Series • Multilingual QA</p>
+      </div>
+      <div class="card">
+        <h4>Aafat-e-Ishq</h4>
+        <p>Movie • QA</p>
+      </div>
+      <!-- 👉 Add more titles from your CSV here -->
+    </div>
+  </section>
 
-    <section id="work" class="card">
-      <h3>Selected Experience</h3>
-      <ul class="timeline">
-        <li>
-          <strong>Independent Consultant — QC/QA, Zee5</strong>
-          <span class="muted">Dec 2020 – Present</span>
-          <p>Multilingual content QA, timecoding & factual checks across movies & series.</p>
-        </li>
-        <li>
-          <strong>Senior Manager — Recruitment & Training, WhiteHat Jr</strong>
-          <span class="muted">Jun 2020 – Oct 2020</span>
-          <p>Interviewed & trained mid-level engineers; designed training frameworks.</p>
-        </li>
-        <li>
-          <strong>HR Head — Leo International School</strong>
-          <span class="muted">Jun 2019 – Sep 2019</span>
-          <p>Set up HR processes & English department; ensured statutory compliance.</p>
-        </li>
-      </ul>
-    </section>
+  <!-- ABOUT -->
+  <section id="about" class="container">
+    <h3 class="section-title">About Me</h3>
+    <p>I’m a QA/QC professional specializing in <strong>subtitle verification, timecoding accuracy, and multilingual content review</strong>. I’ve worked with Zee5 and other platforms to deliver quality entertainment across 7 languages. My mission is to bridge cultural gaps and ensure every viewer enjoys a seamless experience.</p>
+  </section>
 
-    <section class="card">
-      <h3>Skills & Tools</h3>
-      <p class="skills">Talent acquisition · Training design · HR policy · Payroll · Employee engagement · QA · MS Office · Oracle 11i · Learning content</p>
-      <p class="languages"><strong>Languages:</strong> English, Bengali, Malayalam, Hindi, Tamil</p>
-    </section>
+  <!-- CONTACT -->
+  <section id="contact" class="container">
+    <h3 class="section-title">Contact</h3>
+    <p>📧 <a href="mailto:anu.syd.nair@gmail.com">anu.syd.nair@gmail.com</a></p>
+    <p>📞 <a href="tel:+918828094539">+91 88280 94539</a></p>
+  </section>
 
-    <section class="card" id="about">
-      <h3>About</h3>
-      <p>I build people systems that help teams grow with empathy and clarity. I enjoy designing workshops, mentoring new hires and creating processes that reduce friction and improve employee experience.</p>
-    </section>
-
-    <section class="card" id="contact">
-      <h3>Contact</h3>
-      <p>For consulting, speaking or collaboration: <a href="mailto:anu.syd.nair@gmail.com">anu.syd.nair@gmail.com</a></p>
-      <p class="muted">Based in India • Open to remote consulting</p>
-    </section>
-
-    <footer class="site-footer">
-      <p>Made with ❤️ • Anuradha Ramkrishnan — HR Portfolio</p>
-    </footer>
-  </main>
-
+  <!-- FOOTER -->
+  <footer class="site-footer">
+    <p>© 2025 Anuradha Ramkrishnan • QA/QC Portfolio</p>
+  </footer>
 </body>
 </html>
